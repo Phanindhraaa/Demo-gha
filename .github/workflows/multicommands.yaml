@@ -1,0 +1,10 @@
+name: running multiple commands
+on: workflow_dispatch
+jobs:
+  runcmds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run commands
+        run: |
+        echo "Running multiple commands"
+        echo "Running multiple commands"
